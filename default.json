@@ -40,13 +40,13 @@
     "pageZoomLevel": 1,
     "headed": false,
 
-    "mode": "default",
+    "mode": "clustered",
     "emulateNetworkConditions": false,
     "clustering": {
       "monitor": false,
-      "mode": "browser",
+      "mode": "context",
       "maxConcurrency": 5,
-      "timeout": 30
+      "timeout": 60
     },
 
     "verboseLogging": false,
